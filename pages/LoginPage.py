@@ -22,8 +22,8 @@ class LoginPage(Page):
         self.click(*self.SING_IN_POPUP)
 
     def input_credentials(self):
-        self.input_text('omegarepair20@gmail.com', *self.TARGET_EMAIL)
-        self.input_text('hknYqfD@cZ+6AHD', *self.TARGET_PASSWORD)
+        self.input_text('***********', *self.TARGET_EMAIL)
+        self.input_text('***********', *self.TARGET_PASSWORD)
 
     def click_sign_in_user(self):
         self.click(*self.CLICK_SIGN_IN_USER)
